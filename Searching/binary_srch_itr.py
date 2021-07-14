@@ -1,5 +1,7 @@
 #python program to search an element in Sorted array using Binary search
 
+## Using Itterative Method
+
 lst = [3,6,8,12,13,17,25,29,31,36,42,47,53,55,62]
 
 
