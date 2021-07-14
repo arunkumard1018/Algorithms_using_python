@@ -5,6 +5,8 @@
 lst = [3,6,8,12,13,17,25,29,31,36,42,47,53,55,62]
 
 def binary_Search(low,high,key):
+
+    ## Checking if list has length 1
     if low==high:
         if key == lst[low]:
             return low
@@ -21,7 +23,7 @@ def binary_Search(low,high,key):
 
 
 key = int(input("Enter The Key Element To be search : "))
-res = binary_Search(0,len(lst),key)
+res = binary_Search(0,len(lst)-1,key)
 
 if res<0:
     print("Element Not Found")
